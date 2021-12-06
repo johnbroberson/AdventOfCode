@@ -1,5 +1,5 @@
 def day_1_part_1():
-    with open("inputs/day_1.txt", "r") as fp:
+    with open("inputs/day_01.txt", "r") as fp:
         text = list(map(int, fp.read().splitlines()))
     #
     increases_counter = 0
@@ -10,7 +10,7 @@ def day_1_part_1():
     print(increases_counter)
 
 def day_1_part_2():
-    with open("inputs/day_1.txt", "r") as fp:
+    with open("inputs/day_01.txt", "r") as fp:
         text = list(map(int, fp.read().splitlines()))
     #
     increases_counter = 0

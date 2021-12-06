@@ -1,5 +1,5 @@
 def day_2_part_1():
-    with open("inputs/day_2.txt", "r") as fp:
+    with open("inputs/day_02.txt", "r") as fp:
         text = fp.read().splitlines()
     #
     forwards = [int(i[-1]) for i in text if "forward" in i]
@@ -14,7 +14,7 @@ def day_2_part_1():
     print(product)
 
 def day_2_part_2():
-    with open("inputs/day_2.txt", "r") as fp:
+    with open("inputs/day_02.txt", "r") as fp:
         text = fp.read().splitlines()
     #
     aim = 0

@@ -1,5 +1,5 @@
 def day_3_part_1():
-    with open("inputs/day_3.txt", "r") as fp:
+    with open("inputs/day_03.txt", "r") as fp:
         text = fp.read().splitlines()
     #
     col_sums = []
@@ -18,7 +18,7 @@ def day_3_part_1():
     print(product)
 
 class day_3_part_2:
-    with open("inputs/day_3.txt", "r") as fp:
+    with open("inputs/day_03.txt", "r") as fp:
         text = fp.read().splitlines()
     #
     col_sums = []

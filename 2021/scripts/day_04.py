@@ -1,5 +1,5 @@
 class Day4Part1:
-    with open("inputs/day_4.txt", "r") as fp:
+    with open("inputs/day_04.txt", "r") as fp:
         text = fp.read().splitlines()
     #
     #
@@ -70,7 +70,7 @@ class Day4Part1:
     product = number_drawn * sum_unmarked_numbers
 
 class Day4Part2:
-    with open("inputs/day_4.txt", "r") as fp:
+    with open("inputs/day_04.txt", "r") as fp:
         text = fp.read().splitlines()
     #
     #
